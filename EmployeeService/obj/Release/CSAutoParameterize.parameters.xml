@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="EmployeeDBEntities-Web.config Connection String" description="EmployeeDBEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(local);initial catalog=EmployeeDB;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\nitesh\\Desktop\\ASP\\EmployeeService\\EmployeeService\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EmployeeDBEntities']/@connectionString" />
+  </parameter>
+</parameters>

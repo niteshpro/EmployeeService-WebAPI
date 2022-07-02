@@ -1,0 +1,12 @@
+C:\Users\nitesh\Desktop\ASP\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll.config
+C:\Users\nitesh\Desktop\ASP\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.dll
+C:\Users\nitesh\Desktop\ASP\EmployeeService\EmployeeDataAccess\bin\Debug\EmployeeDataAccess.pdb
+C:\Users\nitesh\Desktop\ASP\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\nitesh\Desktop\ASP\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nitesh\Desktop\ASP\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\nitesh\Desktop\ASP\EmployeeService\EmployeeDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nitesh\Desktop\ASP\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.AssemblyReference.cache
+C:\Users\nitesh\Desktop\ASP\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\nitesh\Desktop\ASP\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.csproj.CopyComplete
+C:\Users\nitesh\Desktop\ASP\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.dll
+C:\Users\nitesh\Desktop\ASP\EmployeeService\EmployeeDataAccess\obj\Debug\EmployeeDataAccess.pdb
