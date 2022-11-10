@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var ulEmployees = $('#ulEmployees');
+            var valuesHere = $('#valuesHere');
+
+            $('#btn').click(function () {
+                $.ajax({
+                    type: 'GET',
+                    url: 'api/Employee',
+                    dataType: 'json',
+                    success: function (data) {
+                        ulEmployees.empty();
+                        $.each(data, function (index, val) {
+                            var fullName = val.FirstName + ' ' + val.LastName;
+                            ulEmployees.append('<li>' + fullName + '</li>');
+                        });
+                    }
+
+                });
+            });
+
+            $('#btnClear').click(function () {
+                ulEmployees.empty();
+            });
+
+            $('#value').click(function () {
+                $.ajax({
+                    type: 'GET',
+                    url: 'api/values',
+                    dataType: 'string',
+                    success: function (data) {
+                        valuesHere.empty();
+                        $.each(data, function (index, val) {
+                            var valuenow = val.index;
+                            valuesHere = valuenow;
+                        });
+
+                    }
+
+                });
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <h1>here</h1>
+    <input id="btn" type="button" value="Get All Employees" />
+    <input id="btnClear" type="button" value="Clear" />
+    <ul id="ulEmployees"></ul>
+    <h1>Value</h1>
+    <input id="value" type="button" value="value data" />
+    <input id="valueClear" type="button" value="value cleared" />
+    <p id="valuesHere">now</p>
+
+
+</body>
+</html>
